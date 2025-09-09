@@ -1,0 +1,81 @@
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.characterName {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.characterInfo {
+  margin: 0.5rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.characterImage {
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+.phrasesSection {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.phrasesTitle {
+  color: #34495e;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.phrasesList {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.phraseItem {
+  margin: 0.3rem 0;
+  color: #666;
+  font-style: italic;
+  font-size: 0.85rem;
+}
